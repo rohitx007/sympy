@@ -19,7 +19,7 @@ def main():
     print("\n")
 
     e = 1/sin(x)
-    print("Series for csc(x):")
+    print("Series for cosec(x):")
     print('')
     pprint(e.series(x, 0, 4))
     print('')
